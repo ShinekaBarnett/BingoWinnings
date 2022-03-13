@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      body {
+        background: #7af;
+      }
+      
+      .content {
+        max-width: 500px;
+        background: white;
+      }
+      </style>
     <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script>
         google.charts.load('current', {packages: ['corechart']});
@@ -69,8 +79,9 @@
     </script>
   </head>
   <body>
-    <div id="pieChartDiv"></div>
-    <div id ="barChartDiv" style="width: 700px; height: 600px;"></div>
+    <div id="pieChartDiv" style="margin: auto; width: 700px; height: 600px; margin: auto;"></div>
+    <br>
+    <div id ="barChartDiv" style="width: 700px; height: 600px; margin: auto;"></div>
   </body>
 </html>
 
