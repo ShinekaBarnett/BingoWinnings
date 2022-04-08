@@ -1,4 +1,4 @@
-# BingoWinnings
+# Bingo Winnings
 
 ## This project uses Python, the gspread API and google charts from the Google Cloud Platform to render visualizations.
 
