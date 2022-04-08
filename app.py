@@ -12,7 +12,7 @@ wks = sh.worksheet("Week 1 Bingo Winnings")
 
 #use different methods to manipulate data
 #print all records
-print(wks.get_all_records())
+#print(wks.get_all_records())
 #print(wks.get_all_values())
 #print('Rows: ', wks.row_count)
 #print('Cols: ', wks.row_count)
@@ -20,3 +20,6 @@ print(wks.get_all_records())
 
 #green = wks.findall('Green Special')
 #print(green)
+
+values = wks.row_values(1)
+print(values)
