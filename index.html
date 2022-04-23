@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>{% block content %}{% endblock %}</title>
     <style>
       body {
         background: #7af;
@@ -79,9 +80,9 @@
     </script>
   </head>
   <body>
-    <div id="pieChartDiv" style="margin: auto; width: 700px; height: 600px; margin: auto;"></div>
+    <h1>{{content}}<div id="pieChartDiv" style="margin: auto; width: 700px; height: 600px; margin: auto;"></div>
     <br>
-    <div id ="barChartDiv" style="width: 700px; height: 600px; margin: auto;"></div>
+    <div id ="barChartDiv" style="width: 700px; height: 600px; margin: auto;"></div></h1>
   </body>
 </html>
 
